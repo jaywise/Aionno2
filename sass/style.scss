@@ -34,7 +34,7 @@ h5 {
   }
 h4 {
     font-size: calc(var(--fontBaseSize) * var(--fontScale) * var(--fontScale));
-  }         
+  }
 h3 {
     font-size: calc(var(--fontBaseSize) * var(--fontScale) * var(--fontScale) * var(--fontScale));
   }
@@ -62,7 +62,7 @@ aside,
 article,
 nav,
 footer {
-  background: approach-half-neutral($background-color-primary); 
+  background: approach-half-neutral($background-color-primary);
   padding: 1em;
   border-radius: 0.2em;
 }
@@ -70,7 +70,7 @@ footer {
 nav{
   background-color: hsla(200, 19%, 85%, 1.0);
   padding: 0;
-} 
+}
 
 header, nav, footer, picture {
   grid-column: 1 / 4;
@@ -90,7 +90,7 @@ a {
   grid-template-rows: 100px 60px auto 200px 50px;
 }
 
-.grid-sub-page {  
+.grid-sub-page {
   @include grid-setup;
   grid-template-columns: auto 150px;
   grid-template-rows: 100px 50px 300px 50px;
@@ -143,14 +143,14 @@ picture {
   }
 }
 
-.nav-text { 
+.nav-text {
   @extend %grid-sub-container;
   justify-content: space-between;
   list-style-type: none;
   padding: 0px 80px 15px 80px;
 }
 
-.nav-text a {   
+.nav-text a {
   padding-right: 30px;
   font-family: $secondary-font;
   font-size: 26px;
@@ -218,7 +218,3 @@ footer p {
   }
 
 }
-
-
-
-
